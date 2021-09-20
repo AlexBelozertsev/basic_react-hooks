@@ -1,0 +1,27 @@
+.navbar {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background-color: rgba(0, 128, 128, 0.5);
+}
+
+.navbar__links {
+  margin-left: auto;
+  padding: 8px;
+}
+
+.navbar__item {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.navbar__item:hover {
+  color: teal;
+  background-color: white;
+}

@@ -1,0 +1,11 @@
+.input {
+  max-width: 50%;
+  padding: 5px 15px;
+  margin: 5px;
+  border: 1px solid teal;
+  border-radius: 5px;
+}
+
+.input:hover {
+  transform: scaleX(1.015);
+}

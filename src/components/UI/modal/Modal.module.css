@@ -1,0 +1,22 @@
+.Modal__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.Modal__backdrop.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Modal__content {
+  min-width: 300px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+}
